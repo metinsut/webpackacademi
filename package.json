@@ -1,0 +1,20 @@
+{
+  "name": "webpackacademi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch":"npm run build  -- --watch",
+    "dev":"npm run watch -- --env.env=dev",
+    "prod":"npm run watch -- --env.env=prod"
+   },
+  "author": "metin",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "webpack-merge": "^4.1.1"
+  }
+}
